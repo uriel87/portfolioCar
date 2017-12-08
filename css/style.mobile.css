@@ -43,6 +43,8 @@
   header .header-content {
     padding: 0 2em;
     font-size: 80%; }
+  header .background-wrap {
+    margin-top: 5%; }
   header nav {
     position: fixed;
     z-index: 10; }
@@ -122,6 +124,8 @@
   body {
     font-size: 1em; }
 
+  header .background-wrap {
+    margin-top: 18%; }
   header .header-content {
     padding: 0 1em; }
     header .header-content h1 {

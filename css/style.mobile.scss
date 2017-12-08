@@ -106,6 +106,10 @@ $secondary-color: #151515 ;
       font-size: 80%;
     }
 
+    .background-wrap {
+      margin-top: 5%;
+    }
+
     nav {
       position: fixed;
       z-index: 10;
@@ -231,6 +235,10 @@ $secondary-color: #151515 ;
   }
 
   header {
+
+    .background-wrap {
+      margin-top: 18%;
+    }
 
     .header-content {
       padding: 0 1em;

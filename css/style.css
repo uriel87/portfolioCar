@@ -115,7 +115,8 @@ header {
     min-height: 100%;
     width: auto;
     height: 100%;
-    z-index: -100; }
+    z-index: -100;
+    margin-top: 0%; }
   header .video-background {
     /*position: absolute;*/
     min-width: 100%;
@@ -123,6 +124,13 @@ header {
     width: 650px;
     height: 650px;
     z-index: 1; }
+  header .image-background {
+    min-width: 100%;
+    min-height: 100%;
+    width: 650px;
+    height: 650px;
+    z-index: 1;
+    display: none; }
   header .overlay {
     /* height: 46em; */
     /* overflow: hidden; */
