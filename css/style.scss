@@ -18,6 +18,13 @@ $secondary-color: #151515 ;
   outline: none;
 }
 
+#tubular-container {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
 html {
   height: 100%;
   font-family: 'Lato', 'Ariel', sans-serif;
@@ -87,9 +94,9 @@ section {
 
 header {
 
-  height: 46em;
+  //height: 46em;
   overflow: hidden;
-  min-height:100%;
+  //min-height:100%;
   font-family: 'Proza Libre', sans-serif;
 
   nav {
@@ -167,7 +174,7 @@ header {
     width: auto;
     height: 100%;
     z-index: -100;
-    margin-top: 0;
+    //margin-top: 0;
   }
 
   .video-background {
@@ -182,7 +189,7 @@ header {
   .image-background{
     min-width: 100%;
     min-height: 100%;
-    //width: 100%;
+    width: 100%;
     height: auto;
     z-index: 1;
     overflow: visible;
@@ -191,12 +198,12 @@ header {
 
 .overlay {
     height: 46em;
-    /* overflow: hidden; */
+    overflow: hidden;
     min-height: 100%;
     width: 100%;
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
+    top: 0;
+    left: 0;
     z-index: 2;
     background: #000;
     opacity: 0.5;
@@ -205,7 +212,7 @@ header {
   .header-content {
     position: absolute;
     /*bottom: 3em;*/
-    bottom: 22%;
+    bottom: 5%;
     z-index: 3;
     width: 100%;
     padding: 0 4em;
