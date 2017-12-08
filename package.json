@@ -1,8 +1,12 @@
 {
   "name": "car",
   "version": "1.0.0",
-  "description": "portfolio project car",
-  "main": "script.js",
+  "description": "project for portfolio",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
