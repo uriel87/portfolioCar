@@ -1,0 +1,341 @@
+/*d40000*/
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre");
+@import url("https://fonts.googleapis.com/css?family=Unna");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:focus {
+  outline: none; }
+
+html {
+  height: 100%;
+  font-family: 'Lato', 'Ariel', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; }
+
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%; }
+
+section {
+  padding: 2em 0 4em; }
+
+.btn, header .header-content a, .car-plan .race-plan .race-plan-Purchase a, .contactUs form button {
+  display: inline-block;
+  text-transform: capitalize;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Proza Libre', sans-serif;
+  padding: 1em 2.5em;
+  border: 2px solid #ed1c24;
+  color: #ed1c24;
+  text-align: center;
+  width: 15em; }
+  .btn:hover, header .header-content a:hover, .car-plan .race-plan .race-plan-Purchase a:hover, .contactUs form button:hover {
+    background-color: #ed1c24;
+    color: #ffffff; }
+
+.heading-section, .overview h2, .gallery-cars h2, .car-plan h2, .contactUs h2 {
+  color: #151515;
+  font-size: 200%;
+  text-transform: uppercase;
+  margin: 1em auto;
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif; }
+  .heading-section:after, .overview h2:after, .gallery-cars h2:after, .car-plan h2:after, .contactUs h2:after {
+    display: block;
+    content: " ";
+    width: 3em;
+    height: .13em;
+    background-color: #ed1c24;
+    margin: .5em auto; }
+
+/*------------------------*/
+/* header */
+/*------------------------*/
+header {
+  height: 46em;
+  overflow: hidden;
+  min-height: 100%;
+  font-family: 'Proza Libre', sans-serif; }
+  header nav {
+    position: absolute;
+    top: 0;
+    background: #151515;
+    width: 100%;
+    padding: 1em 2em;
+    z-index: 3;
+    overflow: auto; }
+    header nav #logo {
+      width: auto;
+      height: 4.5em; }
+      header nav #logo img {
+        vertical-align: inherit; }
+    header nav .main-nav {
+      float: right;
+      list-style: none;
+      margin-right: 1.5em;
+      position: relative;
+      top: 1.8em;
+      font-size: 130%; }
+      header nav .main-nav li {
+        display: inline-block;
+        margin-left: 2.5em; }
+        header nav .main-nav li a:link,
+        header nav .main-nav li a:visited {
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 90%;
+          border-bottom: 2px solid transparent;
+          padding: .5em 0;
+          -webkit-transition: border-bottom 0.3s;
+          -o-transition: border-bottom 0.3s;
+          transition: border-bottom 0.3s; }
+        header nav .main-nav li a:hover,
+        header nav .main-nav li a:active {
+          border-bottom: 2px solid #ed1c24; }
+    header nav .mobile-nav-icon {
+      display: none;
+      float: right;
+      margin: 1.5em 2em 0 0;
+      cursor: pointer; }
+      header nav .mobile-nav-icon .ion-navicon-round, header nav .mobile-nav-icon .ion-close-round {
+        font-size: 200%;
+        color: #ececec; }
+  header .background-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    z-index: -100; }
+  header .video-background {
+    /*position: absolute;*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1; }
+  header .overlay {
+    height: 46em;
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #000;
+    opacity: 0.2; }
+  header .header-content {
+    position: absolute;
+    /*bottom: 3em;*/
+    bottom: 5%;
+    z-index: 3;
+    width: 100%;
+    padding: 0 4em; }
+    header .header-content h1 {
+      color: #fff;
+      margin: .5em 0;
+      text-transform: uppercase;
+      font-size: 300%; }
+
+/*------------------------*/
+/* overview */
+/*------------------------*/
+.overview {
+  overflow: auto;
+  font-family: 'Proza Libre', sans-serif;
+  background-color: #ececec; }
+  .overview img {
+    width: 100%;
+    height: auto; }
+  .overview .overview-list h3 {
+    text-transform: uppercase;
+    font-family: "Times New Roman",Times,"Liberation Serif",FreeSerif,serif;
+    font-style: italic; }
+    .overview .overview-list h3 span {
+      color: #ed1c24; }
+  .overview .overview-list li {
+    list-style: none;
+    margin: 2em 0; }
+
+/*------------------------*/
+/* gallery-cars */
+/*------------------------*/
+.gallery-cars {
+  background-color: #fff; }
+  .gallery-cars .car-showcase {
+    width: 100%;
+    list-style: none;
+    overflow: auto;
+    padding: 0;
+    margin: 0; }
+    .gallery-cars .car-showcase li {
+      display: block;
+      float: left;
+      width: 25%; }
+      .gallery-cars .car-showcase li .car-photo {
+        width: 100%;
+        overflow: hidden; }
+        .gallery-cars .car-showcase li .car-photo img {
+          width: 100%;
+          height: auto;
+          -webkit-transform: scale(1.03);
+          -ms-transform: scale(1.03);
+          transform: scale(1.03);
+          -webkit-transition: -webkit-transform .5s;
+          transition: -webkit-transform .5s;
+          -o-transition: -o-transform .5s;
+          -o-transition: transform .5s;
+          transition: transform .5s;
+          transition: transform .5s, -webkit-transform .5s; }
+          .gallery-cars .car-showcase li .car-photo img:hover {
+            -webkit-transform: scale(1.15);
+            -ms-transform: scale(1.15);
+            transform: scale(1.15); }
+
+/*------------------------*/
+/* car-plan */
+/*------------------------*/
+.car-plan {
+  background-color: #ececec;
+  overflow: auto;
+  font-family: 'Proza Libre', sans-serif; }
+  .car-plan .race-plan {
+    width: 31%;
+    margin: 0 1% 2em;
+    padding: 1em 1em 2em;
+    display: inline-block;
+    background-color: #fff; }
+    .car-plan .race-plan .race-plan-overview {
+      text-align: center; }
+      .car-plan .race-plan .race-plan-overview h3 {
+        font-weight: 900; }
+      .car-plan .race-plan .race-plan-overview img {
+        width: 100%;
+        height: auto;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        margin: 1em 0; }
+      .car-plan .race-plan .race-plan-overview p {
+        font-size: 200%;
+        color: #ed1c24; }
+        .car-plan .race-plan .race-plan-overview p span {
+          margin-left: .5em;
+          font-size: 60%; }
+    .car-plan .race-plan .race-plan-details {
+      margin: 2em 0; }
+      .car-plan .race-plan .race-plan-details li {
+        list-style: none;
+        margin: 1em 0; }
+        .car-plan .race-plan .race-plan-details li i {
+          margin-right: .5em; }
+    .car-plan .race-plan .race-plan-Purchase {
+      text-align: center; }
+
+/*------------------------*/
+/* contactUs */
+/*------------------------*/
+.contactUs {
+  font-family: 'Proza Libre', sans-serif;
+  margin: auto;
+  width: 45%;
+  color: #151515; }
+  .contactUs h3 {
+    margin: 0 0 2em;
+    text-align: center;
+    text-transform: capitalize; }
+  .contactUs form div {
+    margin: .5em 0; }
+  .contactUs form input,
+  .contactUs form select,
+  .contactUs form textarea {
+    width: 100%;
+    margin: auto;
+    padding: .5em;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #151515; }
+  .contactUs form textarea {
+    height: 6em; }
+
+/*------------------------*/
+/* footer */
+/*------------------------*/
+footer {
+  background-color: #333;
+  overflow: auto;
+  margin: auto;
+  padding: 2em 2em 1em; }
+  footer .footer-nav, footer .social-link {
+    list-style: none;
+    padding: 1em 0; }
+  footer .footer-nav {
+    float: left; }
+  footer .social-link {
+    float: right; }
+  footer .footer-nav li, footer .social-link li {
+    display: inline-block;
+    margin-right: 1.5em;
+    text-transform: capitalize; }
+    footer .footer-nav li a:link,
+    footer .footer-nav li a:visited, footer .social-link li a:link,
+    footer .social-link li a:visited {
+      color: #888;
+      text-decoration: none;
+      font-size: 150%;
+      padding: .5em 0;
+      -webkit-transition: border-bottom 0.3s;
+      -o-transition: border-bottom 0.3s;
+      transition: border-bottom 0.3s; }
+    footer .footer-nav li a:hover,
+    footer .footer-nav li a:active, footer .social-link li a:hover,
+    footer .social-link li a:active {
+      color: #ddd; }
+    footer .footer-nav li .ion-social-facebook:hover, footer .social-link li .ion-social-facebook:hover {
+      color: #3b5998; }
+    footer .footer-nav li .ion-social-twitter:hover, footer .social-link li .ion-social-twitter:hover {
+      color: #55acee; }
+    footer .footer-nav li .ion-social-googleplus:hover, footer .social-link li .ion-social-googleplus:hover {
+      color: #dd4b39; }
+    footer .footer-nav li .ion-social-instagram:hover, footer .social-link li .ion-social-instagram:hover {
+      color: #00aced; }
+  footer p {
+    color: #888;
+    text-align: center;
+    clear: both; }
+
+/*------------------------*/
+/* animations */
+/*------------------------*/
+.js-wp-fadeInLeft {
+  opacity: 0; }
+
+.js-wp-fadeInLeft.animated {
+  opacity: 1; }
+
+.js-wp-fadeInRight {
+  opacity: 0; }
+
+.js-wp-fadeInRight.animated {
+  opacity: 1; }
+
+.js-wp-fadeOutRight {
+  opacity: 0; }
+
+.js-wp-fadeOutRight.animated {
+  opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */

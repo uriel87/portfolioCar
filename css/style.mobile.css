@@ -1,0 +1,131 @@
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+  .car-plan .race-plan-details li {
+    font-size: 92%; } }
+/* small tablet to big tablet */
+@media only screen and (max-width: 990px) {
+  body {
+    font-size: 1.2em; }
+
+  header nav {
+    padding: 1em; }
+    header nav .main-nav {
+      margin-right: 0; }
+      header nav .main-nav li {
+        margin-left: 1em; }
+  header .header-content h1 {
+    font-size: 200%; }
+
+  .overview .overview-list h3 {
+    text-align: center; }
+
+  .car-plan .race-plan {
+    width: 100%;
+    margin: .5em 0;
+    padding: 1em; }
+  .car-plan .race-plan-details {
+    margin: 0;
+    padding: 0 2em;
+    font-size: 150%; }
+    .car-plan .race-plan-details li {
+      font-size: 90%; }
+      .car-plan .race-plan-details li i {
+        margin-right: 0; }
+
+  .contactUs {
+    width: 80%;
+    padding: 2.5em 0; }
+    .contactUs form button {
+      margin: auto;
+      display: block; } }
+/* phone to small tablet*/
+@media only screen and (max-width: 768px) {
+  header nav {
+    position: fixed;
+    z-index: 10; }
+    header nav .main-nav {
+      position: fixed;
+      right: 0;
+      z-index: 10;
+      top: 5.7em;
+      width: 50%;
+      height: 100%;
+      margin: 0;
+      background-color: #151515;
+      padding: 2em 0 0;
+      opacity: 0;
+      transform: translateX(100%);
+      -webkit-transition: transform 0.3s, opacity 0.3s;
+      -o-transition: transform 0.3s, opacity 0.3s;
+      transition: transform 0.3s, opacity 0.3s; }
+      header nav .main-nav.show-nav {
+        opacity: 1;
+        transform: translateX(0%);
+        -webkit-transition: transform 0.3s, opacity 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s; }
+      header nav .main-nav li {
+        display: block;
+        margin: 2em 0; }
+        header nav .main-nav li a:link,
+        header nav .main-nav li a:visited {
+          font-size: 100%;
+          padding: 2em;
+          color: #ececec; }
+        header nav .main-nav li a:hover,
+        header nav .main-nav li a:active {
+          border-bottom: none; }
+    header nav .transform-active {
+      display: block; }
+    header nav .mobile-nav-icon {
+      display: inline-block;
+      margin-top: 2em;
+      cursor: pointer; }
+      header nav .mobile-nav-icon .ion-navicon-round {
+        display: block; }
+      header nav .mobile-nav-icon i {
+        color: #ececec;
+        -webkit-transition: display .3s;
+        -moz-transition: display .3s;
+        -o-transition: display .3s;
+        -ms-transition: display .3s;
+        transition: display .3s; }
+        header nav .mobile-nav-icon i i:target {
+          display: block; }
+  header .header-content h1 {
+    font-size: 150%; }
+
+  footer {
+    padding: 0;
+    font-size: 100%;
+    text-align: center; }
+    footer .footer-nav, footer .social-link {
+      margin: 0;
+      padding: 0.5em;
+      width: 100%; }
+      footer .footer-nav li, footer .social-link li {
+        margin-right: 0.5em; }
+        footer .footer-nav li a:link,
+        footer .footer-nav li a:visited, footer .social-link li a:link,
+        footer .social-link li a:visited {
+          font-size: 100%; } }
+/* small phone to 480px */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 1em; }
+
+  header .header-content {
+    padding: 0 2em; }
+    header .header-content h1 {
+      font-size: 120%; }
+
+  .contactUs {
+    width: 100%;
+    padding: 0; }
+    .contactUs h3 {
+      font-size: 150%; }
+
+  .car-plan .race-plan-details {
+    font-size: 100%; } }
+
+/*# sourceMappingURL=style.mobile.css.map */

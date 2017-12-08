@@ -1,0 +1,319 @@
+
+$primary-color: #ed1c24 ;
+$secondary-color: #151515 ;
+
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+
+  .car-plan {
+
+    .race-plan-details {
+
+      li {
+        font-size: 92%;
+      }
+    }
+
+  }
+  
+}
+
+/* small tablet to big tablet */
+@media only screen and (max-width: 990px) {
+
+  body {
+    font-size: 1.2em;
+  }
+
+  header {
+
+    nav {
+
+      padding: 1em;
+
+      .main-nav {
+        margin-right: 0;
+
+        li {
+          margin-left: 1em;
+        }
+      }
+    }
+
+    .header-content {
+
+      h1 {
+
+        font-size: 200%;
+      }
+
+    }
+  }
+
+
+  .overview {
+
+    .overview-list {
+
+      h3 {
+        text-align: center;
+      }
+    }
+  }
+
+
+  .car-plan {
+
+    .race-plan {
+      width: 100%;
+      margin: .5em 0;
+      padding: 1em;
+    }
+
+    .race-plan-details {
+
+      margin: 0;
+      padding: 0 2em;
+      font-size: 150%;
+
+      li {
+        font-size: 90%;
+
+        i {
+          margin-right: 0;
+        }
+      }
+    }
+
+  }
+
+
+  .contactUs {
+    width: 80%;
+    padding: 2.5em 0;
+
+    form {
+
+      button {
+        margin: auto;
+        display: block;
+      }
+
+    }
+
+  }
+
+}
+
+/* phone to small tablet*/
+@media only screen and (max-width: 768px) {
+
+  header {
+
+
+    nav {
+      position: fixed;
+      z-index: 10;
+
+      .main-nav {
+        position: fixed;
+        right: 0;
+        z-index: 10;
+        top: 5.7em;
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        background-color: #151515;
+        padding: 2em 0 0;
+        opacity: 0;
+        transform: translateX(100%);
+        -webkit-transition: transform 0.3s, opacity 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s;
+
+        &.show-nav {
+          opacity: 1;
+          transform: translateX(0%);
+          -webkit-transition: transform 0.3s, opacity 0.3s;
+          -o-transition: transform 0.3s, opacity 0.3s;
+          transition: transform 0.3s, opacity 0.3s;
+        }
+
+        li {
+          display: block;
+          margin: 2em 0;
+
+          a:link,
+          a:visited{
+            font-size: 100%;
+            padding: 2em;
+            color: #ececec;
+          }
+
+          a:hover,
+          a:active{
+            border-bottom: none;
+          }
+
+        }
+      }
+
+
+      .transform-active {
+        display: block;
+      }
+
+      .mobile-nav-icon {
+        display: inline-block;
+        margin-top: 2em;
+        cursor: pointer;
+
+        .ion-navicon-round {
+          display: block;
+        }
+
+        i {
+          color: #ececec;
+          -webkit-transition: display .3s;
+          -moz-transition: display .3s;
+          -o-transition: display .3s;
+          -ms-transition: display .3s;
+          transition: display .3s;
+
+          i:target {
+            display: block;
+          }
+
+        }
+
+      }
+
+
+
+    }
+
+
+    .header-content {
+      h1 {
+        font-size: 150%;
+      }
+      a {
+
+      }
+    }
+
+  }
+
+  footer {
+    padding: 0;
+    font-size: 100%;
+    text-align: center;
+
+    .footer-nav, .social-link {
+      margin: 0;
+      padding: 0.5em;
+      width: 100%;
+
+      li {
+        margin-right: 0.5em;
+
+        a:link,
+        a:visited {
+          font-size: 100%;
+        }
+
+      }
+    }
+
+  }
+
+}
+
+/* small phone to 480px */
+@media only screen and (max-width: 480px) {
+
+  body {
+    font-size: 1em;
+  }
+
+
+  header {
+
+
+    nav {
+
+
+      #logo {
+
+      }
+
+      .main-nav {
+
+
+        li {
+
+
+          a:link,
+          a:visited{
+
+          }
+
+          a:hover,
+          a:active{
+
+          }
+
+        }
+      }
+
+    }
+
+    .background-wrap {
+
+    }
+
+    .video-background {
+
+    }
+
+    .overlay {
+
+    }
+
+    .header-content {
+
+      padding: 0 2em;
+
+      h1 {
+
+        font-size: 120%;
+      }
+
+      a {
+
+      }
+    }
+  }
+
+
+  .contactUs {
+    width: 100%;
+    padding: 0;
+
+    h3 {
+      font-size: 150%;
+    }
+
+  }
+
+
+
+  .car-plan {
+
+    .race-plan-details {
+      font-size: 100%;
+    }
+
+  }
+
+}

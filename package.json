@@ -1,0 +1,19 @@
+{
+  "name": "car",
+  "version": "1.0.0",
+  "description": "portfolio project car",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uriel87/portfolioCar.git"
+  },
+  "author": "Uriel Chechique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uriel87/portfolioCar/issues"
+  },
+  "homepage": "https://github.com/uriel87/portfolioCar#readme"
+}
