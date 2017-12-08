@@ -130,7 +130,8 @@
       padding: 0.5em;
       width: 12em; }
   header nav .main-nav {
-    top: 4em; }
+    top: 4em;
+    padding: 2em 0 0; }
   header nav #logo {
     width: auto;
     height: 4.5em; }
