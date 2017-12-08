@@ -94,9 +94,9 @@ section {
 
 header {
 
-  //height: 46em;
+  /*height: 46em;*/
   overflow: hidden;
-  //min-height:100%;
+  /*min-height:100%;*/
   font-family: 'Proza Libre', sans-serif;
 
   nav {
@@ -150,9 +150,9 @@ header {
       }
     }
 
-    //.ion-navicon-round{
-    //  display: none;
-    //}
+    /*.ion-navicon-round{*/
+    /*  display: none;*/
+    /*}*/
 
     .mobile-nav-icon {
       display: none;
@@ -174,7 +174,7 @@ header {
     width: auto;
     height: 100%;
     z-index: -100;
-    //margin-top: 0;
+    /*margin-top: 0;*/
   }
 
   .video-background {
@@ -196,7 +196,7 @@ header {
     display: none;
   }
 
-.overlay {
+  .overlay {
     height: 46em;
     overflow: hidden;
     min-height: 100%;
@@ -207,7 +207,7 @@ header {
     z-index: 2;
     background: #000;
     opacity: 0.5;
-}
+  }
 
   .header-content {
     position: absolute;

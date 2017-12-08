@@ -70,7 +70,9 @@ section {
 /* header */
 /*------------------------*/
 header {
+  /*height: 46em;*/
   overflow: hidden;
+  /*min-height:100%;*/
   font-family: 'Proza Libre', sans-serif; }
   header nav {
     position: absolute;
@@ -79,7 +81,10 @@ header {
     width: 100%;
     padding: 1em 2em;
     z-index: 3;
-    overflow: auto; }
+    overflow: auto;
+    /*.ion-navicon-round{*/
+    /*  display: none;*/
+    /*}*/ }
     header nav #logo {
       width: auto;
       height: 4.5em; }
@@ -122,7 +127,8 @@ header {
     min-height: 100%;
     width: auto;
     height: 100%;
-    z-index: -100; }
+    z-index: -100;
+    /*margin-top: 0;*/ }
   header .video-background {
     /*position: absolute;*/
     min-width: 100%;

@@ -5,12 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.mobile.css" afterPath="$PROJECT_DIR$/css/style.mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.mobile.css.map" afterPath="$PROJECT_DIR$/css/style.mobile.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.mobile.scss" afterPath="$PROJECT_DIR$/css/style.mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
     </list>
     <ignored path="car.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.mobile.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.mobile.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2431">
-              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+            <state relative-caret-position="284">
+              <caret line="284" column="22" selection-start-line="284" selection-start-column="22" selection-end-line="284" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,10 +88,10 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/css/style.mobile.scss" />
         <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/css/style.mobile.scss" />
       </list>
     </option>
   </component>
@@ -241,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512493995472</updated>
       <workItem from="1512493997139" duration="118884000" />
-      <workItem from="1512742435413" duration="17409000" />
+      <workItem from="1512742435413" duration="17563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136293000" />
+    <option name="totallyTimeSpent" value="136447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1696" height="1026" extended-state="0" />
@@ -413,18 +408,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.mobile.scss">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2431">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/css/style.mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
+        <state relative-caret-position="284">
+          <caret line="284" column="22" selection-start-line="284" selection-start-column="22" selection-end-line="284" selection-end-column="22" />
           <folding />
         </state>
       </provider>
