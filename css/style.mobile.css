@@ -55,7 +55,7 @@
       height: 100%;
       margin: 0;
       background-color: #151515;
-      opacity: 0;
+      opacity: 1;
       transform: translateX(0%);
       -webkit-transition: transform 0.3s, opacity 0.3s;
       -o-transition: transform 0.3s, opacity 0.3s;
