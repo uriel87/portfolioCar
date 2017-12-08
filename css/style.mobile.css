@@ -42,7 +42,7 @@
 @media only screen and (max-width: 768px) {
   header .header-content {
     padding: 0 2em;
-    font-size: 100%; }
+    font-size: 80%; }
   header nav {
     position: fixed;
     z-index: 10; }

@@ -64,9 +64,6 @@ section {
 /* header */
 /*------------------------*/
 header {
-  height: 46em;
-  overflow: hidden;
-  min-height: 100%;
   font-family: 'Proza Libre', sans-serif; }
   header nav {
     position: absolute;
@@ -127,13 +124,13 @@ header {
     height: 650px;
     z-index: 1; }
   header .overlay {
-    height: 46em;
-    overflow: hidden;
+    /* height: 46em; */
+    /* overflow: hidden; */
     min-height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
     z-index: 2;
     background: #000;
     opacity: 0.2; }
