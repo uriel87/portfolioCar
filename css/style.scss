@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-/*d40000*/
 $primary-color: #ed1c24 ;
 $secondary-color: #151515 ;
 
@@ -521,34 +515,10 @@ footer {
 /* animations */
 /*------------------------*/
 
-//.show-nav {
-//  opacity: 1;
-//  transform: translateX(0%);
-//  -webkit-transition: transform 0.3s, opacity 0.3s;
-//  -o-transition: transform 0.3s, opacity 0.3s;
-//  transition: transform 0.3s, opacity 0.3s;
-//}
-
 .js-wp-fadeInLeft {
   opacity: 0;
 }
 
 .js-wp-fadeInLeft.animated{
-  opacity: 1;
-}
-
-.js-wp-fadeInRight {
-  opacity: 0;
-}
-
-.js-wp-fadeInRight.animated{
-  opacity: 1;
-}
-
-.js-wp-fadeOutRight {
-  opacity: 0;
-}
-
-.js-wp-fadeOutRight.animated{
   opacity: 1;
 }

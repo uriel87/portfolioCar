@@ -6,14 +6,11 @@ $secondary-color: #151515 ;
 @media only screen and (max-width: 1200px) {
 
   .car-plan {
-
     .race-plan-details {
-
       li {
         font-size: 92%;
       }
     }
-
   }
   
 }
@@ -28,9 +25,7 @@ $secondary-color: #151515 ;
   header {
 
     nav {
-
       padding: 1em;
-
       .main-nav {
         margin-right: 0;
 
@@ -41,13 +36,11 @@ $secondary-color: #151515 ;
     }
 
     .header-content {
-
       h1 {
-
         font-size: 200%;
       }
-
     }
+
   }
 
 
@@ -93,12 +86,10 @@ $secondary-color: #151515 ;
     padding: 2.5em 0;
 
     form {
-
       button {
         margin: auto;
         display: block;
       }
-
     }
 
   }
@@ -109,7 +100,6 @@ $secondary-color: #151515 ;
 @media only screen and (max-width: 768px) {
 
   header {
-
 
     nav {
       position: fixed;
@@ -154,13 +144,7 @@ $secondary-color: #151515 ;
           a:active{
             border-bottom: none;
           }
-
         }
-      }
-
-
-      .transform-active {
-        display: block;
       }
 
       .mobile-nav-icon {
@@ -174,21 +158,9 @@ $secondary-color: #151515 ;
 
         i {
           color: #ececec;
-          -webkit-transition: display .3s;
-          -moz-transition: display .3s;
-          -o-transition: display .3s;
-          -ms-transition: display .3s;
-          transition: display .3s;
-
-          i:target {
-            display: block;
-          }
-
         }
 
       }
-
-
 
     }
 
@@ -196,9 +168,6 @@ $secondary-color: #151515 ;
     .header-content {
       h1 {
         font-size: 150%;
-      }
-      a {
-
       }
     }
 
@@ -236,66 +205,6 @@ $secondary-color: #151515 ;
     font-size: 1em;
   }
 
-
-  header {
-
-
-    nav {
-
-
-      #logo {
-
-      }
-
-      .main-nav {
-
-
-        li {
-
-
-          a:link,
-          a:visited{
-
-          }
-
-          a:hover,
-          a:active{
-
-          }
-
-        }
-      }
-
-    }
-
-    .background-wrap {
-
-    }
-
-    .video-background {
-
-    }
-
-    .overlay {
-
-    }
-
-    .header-content {
-
-      padding: 0 2em;
-
-      h1 {
-
-        font-size: 120%;
-      }
-
-      a {
-
-      }
-    }
-  }
-
-
   .contactUs {
     width: 100%;
     padding: 0;
@@ -306,14 +215,10 @@ $secondary-color: #151515 ;
 
   }
 
-
-
   .car-plan {
-
     .race-plan-details {
       font-size: 100%;
     }
-
   }
 
 }

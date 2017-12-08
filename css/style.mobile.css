@@ -75,8 +75,6 @@
         header nav .main-nav li a:hover,
         header nav .main-nav li a:active {
           border-bottom: none; }
-    header nav .transform-active {
-      display: block; }
     header nav .mobile-nav-icon {
       display: inline-block;
       margin-top: 2em;
@@ -84,14 +82,7 @@
       header nav .mobile-nav-icon .ion-navicon-round {
         display: block; }
       header nav .mobile-nav-icon i {
-        color: #ececec;
-        -webkit-transition: display .3s;
-        -moz-transition: display .3s;
-        -o-transition: display .3s;
-        -ms-transition: display .3s;
-        transition: display .3s; }
-        header nav .mobile-nav-icon i i:target {
-          display: block; }
+        color: #ececec; }
   header .header-content h1 {
     font-size: 150%; }
 
@@ -113,11 +104,6 @@
 @media only screen and (max-width: 480px) {
   body {
     font-size: 1em; }
-
-  header .header-content {
-    padding: 0 2em; }
-    header .header-content h1 {
-      font-size: 120%; }
 
   .contactUs {
     width: 100%;

@@ -1,4 +1,3 @@
-/*d40000*/
 @import url("https://fonts.googleapis.com/css?family=Proza+Libre");
 @import url("https://fonts.googleapis.com/css?family=Unna");
 * {
@@ -324,18 +323,6 @@ footer {
   opacity: 0; }
 
 .js-wp-fadeInLeft.animated {
-  opacity: 1; }
-
-.js-wp-fadeInRight {
-  opacity: 0; }
-
-.js-wp-fadeInRight.animated {
-  opacity: 1; }
-
-.js-wp-fadeOutRight {
-  opacity: 0; }
-
-.js-wp-fadeOutRight.animated {
   opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
