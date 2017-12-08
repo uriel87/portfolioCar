@@ -127,8 +127,8 @@ header {
   header .image-background {
     min-width: 100%;
     min-height: 100%;
-    width: 650px;
-    height: 650px;
+    width: 100%;
+    height: auto;
     z-index: 1;
     display: none; }
   header .overlay {
@@ -141,7 +141,7 @@ header {
     /* left: 0; */
     z-index: 2;
     background: #000;
-    opacity: 0.2; }
+    opacity: 0.5; }
   header .header-content {
     position: absolute;
     /*bottom: 3em;*/

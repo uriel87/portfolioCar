@@ -60,10 +60,9 @@ $( document ).ready(function() {
 
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('video-background').css('display', 'none');
-        $('image-background').css('display', 'block');
+        $('.video-background').css('display', 'none');
+        $('.image-background').css('display', 'block');
     }
-
-
+    
 });
 
