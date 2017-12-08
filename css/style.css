@@ -64,6 +64,9 @@ section {
 /* header */
 /*------------------------*/
 header {
+  height: 46em;
+  overflow: hidden;
+  min-height: 100%;
   font-family: 'Proza Libre', sans-serif; }
   header nav {
     position: absolute;
@@ -116,7 +119,7 @@ header {
     width: auto;
     height: 100%;
     z-index: -100;
-    margin-top: 0%; }
+    margin-top: 0; }
   header .video-background {
     /*position: absolute;*/
     min-width: 100%;
@@ -127,12 +130,12 @@ header {
   header .image-background {
     min-width: 100%;
     min-height: 100%;
-    width: 100%;
     height: auto;
     z-index: 1;
+    overflow: visible;
     display: none; }
   header .overlay {
-    /* height: 46em; */
+    height: 46em;
     /* overflow: hidden; */
     min-height: 100%;
     width: 100%;
@@ -145,7 +148,7 @@ header {
   header .header-content {
     position: absolute;
     /*bottom: 3em;*/
-    bottom: 5%;
+    bottom: 22%;
     z-index: 3;
     width: 100%;
     padding: 0 4em; }
