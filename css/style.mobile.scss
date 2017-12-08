@@ -101,6 +101,11 @@ $secondary-color: #151515 ;
 
   header {
 
+    .header-content {
+      padding: 0 2em;
+      font-size: 100%;
+    }
+
     nav {
       position: fixed;
       z-index: 10;
@@ -109,12 +114,12 @@ $secondary-color: #151515 ;
         position: fixed;
         right: 0;
         z-index: 10;
-        top: 5.7em;
-        width: 50%;
+        top: 4.7em;
+        width: 75%;
         height: 100%;
         margin: 0;
         background-color: #151515;
-        padding: 2em 0 0;
+        //padding: 2em 0 0;
         opacity: 0;
         transform: translateX(100%);
         -webkit-transition: transform 0.3s, opacity 0.3s;
@@ -175,7 +180,7 @@ $secondary-color: #151515 ;
 
   footer {
     padding: 0;
-    font-size: 100%;
+    font-size: 90%;
     text-align: center;
 
     .footer-nav, .social-link {
@@ -203,6 +208,37 @@ $secondary-color: #151515 ;
 
   body {
     font-size: 1em;
+  }
+
+  header {
+
+    .header-content {
+      padding: 0 1em;
+
+      h1 {
+        font-size: 80%;
+      }
+
+      a {
+        padding: 0.5em;
+        width: 12em;
+      }
+
+    }
+
+    nav {
+      #logo {
+        width: auto;
+        height: 4.5em;
+
+        img {
+          width: 50%;
+        }
+      }
+      .mobile-nav-icon {
+        margin-top: 2%;
+      }
+    }
   }
 
   .contactUs {
