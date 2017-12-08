@@ -123,8 +123,8 @@ header {
     /*position: absolute;*/
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 650px;
+    height: 650px;
     z-index: 1; }
   header .overlay {
     height: 46em;
