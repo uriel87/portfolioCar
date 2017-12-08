@@ -66,6 +66,9 @@ $( document ).ready(function() {
         $('.video-background').css('display', 'none');
         $('.image-background').css('display', 'block');
         $('.image-embed').css('overflow', 'visible');
+    }
+
+    if ($(window).width() < 768) {
         offset = 90;
     }
     

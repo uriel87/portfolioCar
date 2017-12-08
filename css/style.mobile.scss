@@ -108,7 +108,7 @@ $secondary-color: #151515 ;
     }
 
     .background-wrap {
-      margin-top: 5%;
+      margin-top: 5em;
     }
 
     nav {
@@ -205,7 +205,6 @@ $secondary-color: #151515 ;
 
   footer {
     padding: 0;
-    font-size: 90%;
     text-align: center;
 
     .footer-nav, .social-link {
@@ -224,6 +223,10 @@ $secondary-color: #151515 ;
       }
     }
 
+    p {
+      font-size: 70%;
+    }
+
   }
 
 }
@@ -236,10 +239,6 @@ $secondary-color: #151515 ;
   }
 
   header {
-
-    .background-wrap {
-      margin-top: 18%;
-    }
 
     .header-content {
       padding: 0 1em;
