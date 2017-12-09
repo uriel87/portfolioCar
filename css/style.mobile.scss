@@ -240,12 +240,14 @@ $secondary-color: #151515 ;
 
   header {
 
-    .header-content {
+    .image-background {
+      background-size: 50%;
+    }
 
+    .header-content {
       h1 {
         font-size: 100%;
       }
-
     }
 
     nav {

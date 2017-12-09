@@ -126,6 +126,8 @@
   body {
     font-size: 1em; }
 
+  header .image-background {
+    background-size: 50%; }
   header .header-content h1 {
     font-size: 100%; }
   header nav .main-nav {
