@@ -139,7 +139,6 @@ header {
   header .image-background {
     background-image: url("/images/imagebg.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     position: absolute;
     min-width: 100%;
