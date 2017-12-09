@@ -137,7 +137,7 @@ header {
     height: 650px;
     z-index: 1; }
   header .image-background {
-    background-image: url("/images/imagebg.jpg");
+    background-image: url("/images/imagebg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
