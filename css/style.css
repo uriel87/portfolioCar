@@ -159,6 +159,34 @@ header {
       margin: .5em 0;
       text-transform: uppercase;
       font-size: 300%; }
+  header #go-to-top {
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 1.5em;
+    top: 7em;
+    right: 0;
+    color: #ed1c24;
+    font-size: 250%;
+    text-align: center;
+    z-index: 999; }
+@keyframes MoveUpDown {
+  0% {
+    top: 7em; }
+  25% {
+    top: 6.75em; }
+  50% {
+    top: 7em; }
+  75% {
+    top: 7.25em; }
+  100% {
+    top: 7em; } }
+    header #go-to-top:hover {
+      -webkit-animation: MoveUpDown 1s linear infinite;
+      -moz-animation: MoveUpDown 1s linear infinite;
+      -o-animation: MoveUpDown 1s linear infinite;
+      animation: MoveUpDown 1s linear infinite; }
 
 /*------------------------*/
 /* overview */

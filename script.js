@@ -79,6 +79,18 @@ $( document ).ready(function() {
     if ($(window).width() < 768) {
         offset = 70;
     }
+
+    $(window).scroll(function() {
+        if($( window ).width() > 627) {
+            var scroll = $(window).scrollTop();
+            var objectPosition = $('header').offset().top + 60;
+            if (scroll < objectPosition) {
+                $("#go-to-top").hide();
+            } else {
+                $("#go-to-top").show();
+            }
+        }
+    });
     
 });
 

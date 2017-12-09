@@ -50,6 +50,7 @@
     position: fixed;
     z-index: 10; }
     header nav .main-nav {
+      position: absolute;
       right: 0;
       z-index: 10;
       top: 4.7em;
@@ -104,6 +105,8 @@
         color: #ececec; }
   header .header-content h1 {
     font-size: 150%; }
+  header #go-to-top {
+    display: none; }
 
   footer {
     padding: 0;
