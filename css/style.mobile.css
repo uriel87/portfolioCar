@@ -50,6 +50,7 @@
     position: fixed;
     z-index: 10; }
     header nav .main-nav {
+      position: fixed;
       /*padding: 2em 0 0;*/ }
       header nav .main-nav li {
         display: block;
