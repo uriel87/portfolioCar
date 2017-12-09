@@ -241,21 +241,14 @@ $secondary-color: #151515 ;
   header {
 
     .header-content {
-      padding: 0 1em;
 
       h1 {
-        font-size: 80%;
-      }
-
-      a {
-        padding: 0.5em;
-        width: 12em;
+        font-size: 100%;
       }
 
     }
 
     nav {
-
 
       .main-nav {
         top: 4em;
@@ -263,13 +256,11 @@ $secondary-color: #151515 ;
       }
 
       #logo {
-        width: auto;
-        height: 4.5em;
-
-        img {
-          width: 50%;
-        }
+        background-size: 95%;
+        width: 150px;
+        height: 45px;
       }
+
       .mobile-nav-icon {
         margin-top: 2%;
       }

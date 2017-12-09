@@ -126,21 +126,15 @@
   body {
     font-size: 1em; }
 
-  header .header-content {
-    padding: 0 1em; }
-    header .header-content h1 {
-      font-size: 80%; }
-    header .header-content a {
-      padding: 0.5em;
-      width: 12em; }
+  header .header-content h1 {
+    font-size: 100%; }
   header nav .main-nav {
     top: 4em;
     padding: 2em 0 0; }
   header nav #logo {
-    width: auto;
-    height: 4.5em; }
-    header nav #logo img {
-      width: 50%; }
+    background-size: 95%;
+    width: 150px;
+    height: 45px; }
   header nav .mobile-nav-icon {
     margin-top: 2%; }
 
