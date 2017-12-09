@@ -18,13 +18,6 @@ $secondary-color: #151515 ;
   outline: none;
 }
 
-#tubular-container {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: auto;
-}
-
 html {
   height: 100%;
   font-family: 'Lato', 'Ariel', sans-serif;
@@ -88,6 +81,19 @@ section {
 }
 
 
+.overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(#000, #000);
+  opacity: .6;
+  z-index: 3;
+}
+
+
 /*------------------------*/
 /* header */
 /*------------------------*/
@@ -96,7 +102,6 @@ header {
 
   height: 100%;
   overflow: hidden;
-  /*min-height:100%;*/
   font-family: 'Proza Libre', sans-serif;
 
   nav {
@@ -149,10 +154,6 @@ header {
       }
     }
 
-    /*.ion-navicon-round{*/
-    /*  display: none;*/
-    /*}*/
-
     .mobile-nav-icon {
       display: none;
       float: right;
@@ -174,26 +175,19 @@ header {
     height: 100%;
     z-index: -100;
 
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(#000, #000);
-      opacity: .6;
-    }
-
   }
 
   .video-background {
-    /*position: absolute;*/
     min-width: 100%;
     min-height: 100%;
     width: 650px ;
     height: 650px ;
     z-index: 1;
+
+    &:before {
+      @extend .overlay;
+    }
+
   }
 
   .image-background{
@@ -209,6 +203,11 @@ header {
     z-index: -1;
     overflow: visible;
     display: none;
+
+    &:before {
+      @extend .overlay;
+    }
+
   }
 
   .header-content {

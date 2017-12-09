@@ -9,12 +9,6 @@
 *:focus {
   outline: none; }
 
-#tubular-container {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: auto; }
-
 html {
   height: 100%;
   font-family: 'Lato', 'Ariel', sans-serif;
@@ -66,13 +60,23 @@ section {
     background-color: #ed1c24;
     margin: .5em auto; }
 
+.overlay, header .video-background:before, header .image-background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(#000, #000);
+  opacity: .6;
+  z-index: 3; }
+
 /*------------------------*/
 /* header */
 /*------------------------*/
 header {
   height: 100%;
   overflow: hidden;
-  /*min-height:100%;*/
   font-family: 'Proza Libre', sans-serif; }
   header nav {
     position: absolute;
@@ -81,10 +85,7 @@ header {
     width: 100%;
     padding: 1em 2em;
     z-index: 3;
-    overflow: auto;
-    /*.ion-navicon-round{*/
-    /*  display: none;*/
-    /*}*/ }
+    overflow: auto; }
     header nav #logo {
       background-image: url("/images/logo.png");
       background-repeat: no-repeat;
@@ -129,17 +130,7 @@ header {
     width: auto;
     height: 100%;
     z-index: -100; }
-    header .background-wrap:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(#000, #000);
-      opacity: .6; }
   header .video-background {
-    /*position: absolute;*/
     min-width: 100%;
     min-height: 100%;
     width: 650px;
