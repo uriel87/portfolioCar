@@ -116,14 +116,14 @@ $secondary-color: #151515 ;
       z-index: 10;
 
       .main-nav {
-        //position: fixed;
-        //right: 0;
+        position: fixed;
+        right: 0;
         //z-index: 10;
         //top: 4.7em;
-        //width: 75%;
-        //height: 100%;
-        //margin: 0;
-        //background-color: #151515;
+        //width: 75%;s
+        height: 100%;
+        margin: 0;
+        background-color: #151515;
         /*padding: 2em 0 0;*/
         //opacity: 0;
         //-webkit-transform: translateX(100%);
