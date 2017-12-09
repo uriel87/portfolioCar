@@ -50,10 +50,6 @@
     position: fixed;
     z-index: 10; }
     header nav .main-nav {
-      position: fixed;
-      right: 0;
-      z-index: 10;
-      background-color: #151515;
       /*padding: 2em 0 0;*/ }
       header nav .main-nav li {
         display: block;
