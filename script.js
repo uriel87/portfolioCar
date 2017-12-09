@@ -3,7 +3,28 @@
 
 $( document ).ready(function() {
 
-    var offset = 0
+    var offset = 0;
+
+    var mainNavSec = $('.main-nav');
+    var fadeInRight = $(".js-wp-fadeInRight");
+    var fadeOutRight = $(".js-wp-fadeOutRight");
+    var icon = $('.mobile-nav-icon i');
+
+
+    var showNav = function() {
+        console.log("ion-close-round");
+        icon.addClass("ion-close-round");
+        icon.removeClass("ion-navicon-round");
+        mainNavSec.addClass("show-nav")
+    }
+
+    var hideNav = function () {
+        console.log("ion-navicon-round")
+        icon.addClass("ion-navicon-round");
+        icon.removeClass("ion-close-round");
+        mainNavSec.removeClass("show-nav")
+    }
+
 
     /* nav links */
     $('a[href*=#]:not([href=#])').click(function() {
@@ -16,7 +37,7 @@ $( document ).ready(function() {
                 $('html,body').animate({
                     scrollTop: target.offset().top - offset
                 }, 1000);
-                $('.main-nav').toggleClass("show-nav")
+                hideNav()
                 return false;
             }
         }
@@ -40,25 +61,12 @@ $( document ).ready(function() {
 
     /* nav mobile */
     $(".mobile-nav-icon").click(function() {
-
-        var mainNav = $('.main-nav');
-        var fadeInRight = $(".js-wp-fadeInRight");
-        var fadeOutRight = $(".js-wp-fadeOutRight");
-
-        var icon = $('.mobile-nav-icon i');
-
         if(icon.hasClass("ion-navicon-round")) {
-            console.log("ion-close-round")
-            icon.addClass("ion-close-round");
-            icon.removeClass("ion-navicon-round");
-            mainNav.toggleClass("show-nav")
+            showNav();
         } else {
-            console.log("ion-navicon-round")
-            icon.addClass("ion-navicon-round");
-            icon.removeClass("ion-close-round");
-            mainNav.toggleClass("show-nav")
+            hideNav();
         }
-        
+
     });
 
 
@@ -69,7 +77,7 @@ $( document ).ready(function() {
     }
 
     if ($(window).width() < 768) {
-        offset = 90;
+        offset = 70;
     }
     
 });
