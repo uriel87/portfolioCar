@@ -114,10 +114,9 @@ $secondary-color: #151515 ;
     nav {
       position: fixed;
       z-index: 10;
-      width: 100%;
 
       .main-nav {
-        position: fixed;
+        position: static;
         right: 0;
         z-index: 10;
         top: 4.7em;
