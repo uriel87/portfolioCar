@@ -79,7 +79,7 @@ header {
   overflow: hidden;
   font-family: 'Proza Libre', sans-serif; }
   header nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     background: #151515;
     width: 100%;

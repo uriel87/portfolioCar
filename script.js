@@ -76,9 +76,9 @@ $( document ).ready(function() {
         $('.image-embed').css('overflow', 'visible');
     }
 
-    if ($(window).width() < 768) {
-        offset = 70;
-    }
+    // if ($(window).width() < 768) {
+    //     offset = 70;
+    // }
 
     $(window).scroll(function() {
         if($( window ).width() > 627) {

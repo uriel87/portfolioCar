@@ -50,7 +50,7 @@
     position: fixed;
     z-index: 10; }
     header nav .main-nav {
-      position: static;
+      position: fixed;
       right: 0;
       z-index: 10;
       top: 4.7em;
