@@ -188,6 +188,7 @@ header {
   }
 
   .background-wrap {
+    position: relative;
     min-width: 100%;
     min-height: 100%;
     width: auto;
@@ -219,9 +220,9 @@ header {
     z-index: -999;
     display: none;
 
-    //&:before {
-    //  @extend .overlay;
-    //}
+    &:before {
+      @extend .overlay;
+    }
 
   }
 

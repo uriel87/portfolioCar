@@ -60,7 +60,7 @@ section {
     background-color: #ed1c24;
     margin: .5em auto; }
 
-.overlay, header .video-background:before {
+.overlay, header .video-background:before, header .image-background:before {
   content: '';
   position: absolute;
   top: 0;
@@ -138,6 +138,7 @@ header {
         font-size: 200%;
         color: #ececec; }
   header .background-wrap {
+    position: relative;
     min-width: 100%;
     min-height: 100%;
     width: auto;
