@@ -77,7 +77,8 @@ section {
 header {
   height: 100%;
   overflow: hidden;
-  font-family: 'Proza Libre', sans-serif; }
+  font-family: 'Proza Libre', sans-serif;
+  position: relative; }
   header nav {
     position: fixed;
     top: 0;
@@ -129,18 +130,20 @@ header {
     min-height: 100%;
     width: auto;
     height: 100%;
-    z-index: -999; }
+    z-index: -999;
+    position: relative; }
   header .video-background {
     min-width: 100%;
     min-height: 100%;
     width: 650px;
     height: 650px;
-    z-index: 1; }
+    z-index: 1;
+    position: relative; }
   header .image-background {
     background-image: url("/images/imagebg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
     min-width: 100%;
     min-height: 100%;
     width: 100%;
