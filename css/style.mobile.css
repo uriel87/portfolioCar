@@ -47,7 +47,6 @@
   header .background-wrap {
     margin-top: 5em; }
   header nav {
-    position: fixed;
     z-index: 10; }
     header nav .main-nav {
       position: fixed;
@@ -58,7 +57,6 @@
       height: 100%;
       background-color: #151515;
       padding: 3em 0 0;
-      opacity: 0;
       -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
       transform: translateX(100%);
@@ -71,7 +69,6 @@
       transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s; }
       header nav .main-nav.show-nav {
-        opacity: 1;
         -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
         transform: translateX(0%);
