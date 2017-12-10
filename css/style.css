@@ -85,6 +85,16 @@ header {
     padding: 1em 2em;
     z-index: 3;
     overflow: auto; }
+    header nav .background-mainNav-mobile {
+      display: block;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      margin: 1.4em -1em;
+      opacity: 0;
+      top: 4em;
+      z-index: -999; }
     header nav #logo {
       background-image: url("/images/logo.png");
       background-repeat: no-repeat;

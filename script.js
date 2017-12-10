@@ -7,12 +7,15 @@ $( document ).ready(function() {
     var fadeInRight = $(".js-wp-fadeInRight");
     var fadeOutRight = $(".js-wp-fadeOutRight");
     var icon = $('.mobile-nav-icon i');
+    var backgroundMainNavMobile = $(".background-mainNav-mobile");
+
 
 
     var showNav = function() {
         console.log("ion-close-round");
         icon.addClass("ion-close-round");
         icon.removeClass("ion-navicon-round");
+        backgroundMainNavMobile.addClass("show-background-mainNav-mobile");
         mainNavSec.addClass("show-nav")
     }
 
@@ -20,6 +23,7 @@ $( document ).ready(function() {
         console.log("ion-navicon-round")
         icon.addClass("ion-navicon-round");
         icon.removeClass("ion-close-round");
+        backgroundMainNavMobile.removeClass("show-background-mainNav-mobile");
         mainNavSec.removeClass("show-nav")
     }
 

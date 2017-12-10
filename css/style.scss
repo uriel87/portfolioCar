@@ -113,6 +113,18 @@ header {
     z-index: 3;
     overflow: auto;
 
+    .background-mainNav-mobile {
+      display: block;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      margin: 1.4em -1em;
+      opacity: 0;
+      top: 4em;
+      z-index: -999;
+    }
+
     #logo {
       background-image: url("/images/logo.png");
       background-repeat: no-repeat;
