@@ -86,12 +86,12 @@ header {
     z-index: 3;
     overflow: auto; }
     header nav .background-mainNav-mobile {
-      display: block;
+      display: none;
       position: fixed;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.7);
       height: 100%;
       width: 100%;
-      margin: 1.4em -1em;
+      margin: 0;
       opacity: 0;
       top: 4em;
       z-index: -999; }
@@ -106,7 +106,7 @@ header {
       list-style: none;
       margin-right: 1.5em;
       position: relative;
-      top: 1.8em;
+      top: .5em;
       font-size: 130%; }
       header nav .main-nav.show-nav {
         -webkit-transform: translateX(0%);

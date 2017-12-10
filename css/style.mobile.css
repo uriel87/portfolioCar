@@ -45,16 +45,17 @@
     padding: 0 2em;
     font-size: 100%; }
   header nav .show-background-mainNav-mobile {
+    display: block;
     opacity: 1;
     z-index: 4;
-    -webkit-transition: .2s;
-    -o-transition: .2s;
-    transition: .2s; }
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
   header nav .main-nav {
     position: fixed;
     right: 0;
     z-index: 999;
-    top: 3em;
+    margin-top: 2.6em;
     width: 75%;
     height: 100%;
     background-color: #151515;
