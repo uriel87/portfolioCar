@@ -101,33 +101,32 @@ $secondary-color: #151515 ;
 @media only screen and (max-width: 768px) {
 
   header {
+    display: grid;
 
     .header-content {
       padding: 0 2em;
       font-size: 80%;
-      bottom: 12%;
     }
 
-    .background-wrap {
-      position: relative;
-      margin-top: 5em;
-    }
+    //.background-wrap {
+    //  margin-top: 5em;
+    //}
 
     nav {
       //position: fixed;
-      z-index: 999;
+      z-index: 10;
 
       .main-nav {
         position: fixed;
         right: 0;
-        z-index: 999;
+        z-index: 10;
         top: 4.7em;
         width: 75%;
         height: 100%;
         //margin: 0;
         background-color: #151515;
         padding: 3em 0 0;
-        //opacity: 0;
+        opacity: 0;
         -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
         transform: translateX(100%);
@@ -141,8 +140,9 @@ $secondary-color: #151515 ;
         transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
 
 
+
         &.show-nav {
-          //opacity: 1;
+          opacity: 1;
           -webkit-transform: translateX(0%);
           -ms-transform: translateX(0%);
           transform: translateX(0%);
@@ -197,10 +197,6 @@ $secondary-color: #151515 ;
       h1 {
         font-size: 150%;
       }
-    }
-
-    #go-to-top {
-      display: none;
     }
 
   }
