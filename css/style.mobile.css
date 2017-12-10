@@ -43,8 +43,10 @@
 @media only screen and (max-width: 768px) {
   header .header-content {
     padding: 0 2em;
-    font-size: 80%; }
+    font-size: 80%;
+    bottom: 12%; }
   header .background-wrap {
+    position: relative;
     margin-top: 5em; }
   header nav {
     z-index: 999; }

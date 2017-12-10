@@ -105,9 +105,11 @@ $secondary-color: #151515 ;
     .header-content {
       padding: 0 2em;
       font-size: 80%;
+      bottom: 12%;
     }
 
     .background-wrap {
+      position: relative;
       margin-top: 5em;
     }
 
