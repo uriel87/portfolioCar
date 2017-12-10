@@ -41,14 +41,9 @@
       display: block; } }
 /* phone to small tablet*/
 @media only screen and (max-width: 768px) {
-  header .image-background {
-    background-image: none;
-    background-color: transparent; }
   header .header-content {
     padding: 0 2em;
     font-size: 100%; }
-  header .background-wrap {
-    margin-top: 5em; }
   header nav {
     z-index: 10; }
     header nav .main-nav {
