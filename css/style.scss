@@ -90,7 +90,7 @@ section {
   left: 0;
   background-image: linear-gradient(#000, #000);
   opacity: .5;
-  z-index: 3;
+  z-index: 0;
 }
 
 
@@ -103,8 +103,6 @@ header {
   height: 100%;
   overflow: hidden;
   font-family: 'Proza Libre', sans-serif;
-
-  position: relative;
 
   nav {
     position: fixed;
@@ -176,9 +174,6 @@ header {
     width: auto;
     height: 100%;
     z-index: -999;
-
-    position: relative;
-
   }
 
   .video-background {
@@ -187,8 +182,6 @@ header {
     width: 650px ;
     height: 650px ;
     z-index: 1;
-
-    position: relative;
 
     &:before {
       @extend .overlay;
@@ -200,10 +193,6 @@ header {
     background-image: url("/images/imagebg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    //position: absolute;
-
-    position: relative;
-
     min-width: 100%;
     min-height: 100%;
     width: 100%;
