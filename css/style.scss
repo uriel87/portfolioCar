@@ -101,7 +101,7 @@ section {
 header {
 
   height: 100%;
-  overflow: hidden;
+  //overflow: hidden;
   font-family: 'Proza Libre', sans-serif;
 
   nav {
@@ -128,6 +128,13 @@ header {
       position: relative;
       top: 1.8em;
       font-size: 130%;
+
+      &.show-nav {
+        //opacity: 1;
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+      }
 
       li {
         display: inline-block;

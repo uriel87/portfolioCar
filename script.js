@@ -57,6 +57,12 @@ $( document ).ready(function() {
     }
 
 
+    // $(".mobile-nav-icon").click(function() {
+    //     console.log("clik menu bar")
+    //     $(".main-nav").toggleClass(".show-nav");
+    //     // $(".background-mainNav-mobile").toggleClass("show-background-mainNav-mobile");
+    // });
+
     /* nav mobile */
     $(".mobile-nav-icon").click(function() {
         if(icon.hasClass("ion-navicon-round")) {
@@ -64,7 +70,6 @@ $( document ).ready(function() {
         } else {
             hideNav();
         }
-
     });
 
 

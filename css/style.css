@@ -76,7 +76,6 @@ section {
 /*------------------------*/
 header {
   height: 100%;
-  overflow: hidden;
   font-family: 'Proza Libre', sans-serif; }
   header nav {
     position: fixed;
@@ -99,6 +98,10 @@ header {
       position: relative;
       top: 1.8em;
       font-size: 130%; }
+      header nav .main-nav.show-nav {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%); }
       header nav .main-nav li {
         display: inline-block;
         margin-left: 2.5em; }
