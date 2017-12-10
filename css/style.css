@@ -60,7 +60,7 @@ section {
     background-color: #ed1c24;
     margin: .5em auto; }
 
-.overlay, header .video-background:before, header .image-background:before {
+.overlay, header .video-background:before {
   content: '';
   position: absolute;
   top: 0;
@@ -157,8 +157,7 @@ header {
     min-height: 100%;
     width: 100%;
     height: auto;
-    z-index: -1;
-    overflow: visible;
+    z-index: -999;
     display: none; }
   header .header-content {
     position: absolute;
