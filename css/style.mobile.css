@@ -41,9 +41,14 @@
       display: block; } }
 /* phone to small tablet*/
 @media only screen and (max-width: 768px) {
+  header .image-background {
+    background-image: none;
+    background-color: transparent; }
   header .header-content {
     padding: 0 2em;
     font-size: 80%; }
+  header .background-wrap {
+    margin-top: 5em; }
   header nav {
     z-index: 10; }
     header nav .main-nav {
@@ -52,7 +57,7 @@
       z-index: 10;
       top: 4.7em;
       width: 75%;
-      height: 40em;
+      height: 100%;
       background-color: #151515;
       padding: 3em 0 0;
       opacity: 0;
