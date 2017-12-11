@@ -9,23 +9,28 @@ $( document ).ready(function() {
     var icon = $('.mobile-nav-icon i');
     var backgroundMainNavMobile = $(".background-mainNav-mobile");
 
+    $(".mobile-nav-icon").click(function() {
+        $(".main-nav").toggleClass("show-nav");
+        // $(".background-mainNav-mobile").toggleClass("show-background-mainNav-mobile");
+    });
 
 
-    var showNav = function() {
-        console.log("ion-close-round");
-        icon.addClass("ion-close-round");
-        icon.removeClass("ion-navicon-round");
-        backgroundMainNavMobile.addClass("show-background-mainNav-mobile");
-        mainNavSec.addClass("show-nav")
-    }
 
-    var hideNav = function () {
-        console.log("ion-navicon-round")
-        icon.addClass("ion-navicon-round");
-        icon.removeClass("ion-close-round");
-        backgroundMainNavMobile.removeClass("show-background-mainNav-mobile");
-        mainNavSec.removeClass("show-nav")
-    }
+    // var showNav = function() {
+    //     console.log("ion-close-round");
+    //     icon.addClass("ion-close-round");
+    //     icon.removeClass("ion-navicon-round");
+    //     backgroundMainNavMobile.addClass("show-background-mainNav-mobile");
+    //     mainNavSec.addClass("show-nav")
+    // }
+    //
+    // var hideNav = function () {
+    //     console.log("ion-navicon-round")
+    //     icon.addClass("ion-navicon-round");
+    //     icon.removeClass("ion-close-round");
+    //     backgroundMainNavMobile.removeClass("show-background-mainNav-mobile");
+    //     mainNavSec.removeClass("show-nav")
+    // }
 
 
     /* nav links */
@@ -53,12 +58,12 @@ $( document ).ready(function() {
         offset: '80%'
     });
 
-    function reset($elem) {
-        $elem.before($elem.clone(true));
-        var $newElem = $elem.prev();
-        $elem.remove();
-        return $newElem;
-    }
+    // function reset($elem) {
+    //     $elem.before($elem.clone(true));
+    //     var $newElem = $elem.prev();
+    //     $elem.remove();
+    //     return $newElem;
+    // }
 
 
     // $(".mobile-nav-icon").click(function() {
@@ -68,20 +73,20 @@ $( document ).ready(function() {
     // });
 
     /* nav mobile */
-    $(".mobile-nav-icon").click(function() {
-        if(icon.hasClass("ion-navicon-round")) {
-            showNav();
-        } else {
-            hideNav();
-        }
-    });
+    // $(".mobile-nav-icon").click(function() {
+    //     if(icon.hasClass("ion-navicon-round")) {
+    //         showNav();
+    //     } else {
+    //         hideNav();
+    //     }
+    // });
 
 
-    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    //     $('.video-background').css('display', 'none');
-    //     $('.image-background').css('display', 'block');
-    //     $('.image-embed').css('overflow', 'visible');
-    // }
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $('.video-background').css('display', 'none');
+        $('.image-background').css('display', 'block');
+        $('.image-embed').css('overflow', 'visible');
+    }
 
 });
 
