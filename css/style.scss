@@ -186,14 +186,6 @@ header {
 
   }
 
-  .background-wrap {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: 100%;
-    z-index: -999;
-  }
-
   .video-background {
     min-width: 100%;
     min-height: 100%;
@@ -222,10 +214,6 @@ header {
       @extend .overlay;
     }
 
-  }
-
-  iframe {
-    display: none;
   }
 
   .header-content {

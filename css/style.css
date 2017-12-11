@@ -135,12 +135,6 @@ header {
       header nav .mobile-nav-icon .ion-navicon-round, header nav .mobile-nav-icon .ion-close-round {
         font-size: 200%;
         color: #ececec; }
-  header .background-wrap {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: 100%;
-    z-index: -999; }
   header .video-background {
     min-width: 100%;
     min-height: 100%;
@@ -156,8 +150,6 @@ header {
     width: 100%;
     height: auto;
     z-index: -999;
-    display: none; }
-  header iframe {
     display: none; }
   header .header-content {
     position: absolute;
