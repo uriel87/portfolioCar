@@ -82,7 +82,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  -webkit-background-size: cover; }
+  -webkit-background-size: cover;
+  z-index: 0; }
   header nav {
     position: fixed;
     top: 0;
