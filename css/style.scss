@@ -104,6 +104,13 @@ header {
   //overflow: hidden;
   font-family: 'Proza Libre', sans-serif;
 
+  background-image: url('/images/imagebg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+
   nav {
     position: fixed;
     top: 0;
@@ -119,9 +126,8 @@ header {
       background-color: rgba(0, 0, 0, 0.7);
       height: 100%;
       width: 100%;
-      margin: 0;
+      margin: 4.4em -1em 0;
       opacity: 0;
-      top: 4em;
       z-index: -999;
     }
 
@@ -188,7 +194,6 @@ header {
   }
 
   .background-wrap {
-    position: relative;
     min-width: 100%;
     min-height: 100%;
     width: auto;
