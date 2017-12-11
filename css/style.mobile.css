@@ -51,13 +51,16 @@
       display: block;
       opacity: 1;
       z-index: 4;
+      top: 1em;
       -webkit-transition: .3s;
       -o-transition: .3s;
-      transition: .3s; }
+      transition: .3s;
+      position: fixed; }
     header nav .main-nav {
+      position: fixed;
       right: 0;
       z-index: 5;
-      margin-top: 2.6em;
+      margin-top: 4.4em;
       width: 75%;
       height: 100%;
       background-color: #151515;
@@ -113,9 +116,10 @@
 
   header .header-content h1 {
     font-size: 100%; }
+  header nav .show-background-mainNav-mobile {
+    top: -.5em; }
   header nav .main-nav {
-    margin-top: 4em;
-    padding: 2em 0 0; }
+    margin-top: 3.2em; }
   header nav #logo {
     background-size: 95%;
     width: 150px;

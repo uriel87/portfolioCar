@@ -116,16 +116,18 @@ $secondary-color: #151515 ;
         display: block;
         opacity: 1;
         z-index: 4;
+        top: 1em;
         -webkit-transition: .3s;
         -o-transition: .3s;
         transition: .3s;
+        position: fixed;
       }
 
       .main-nav {
-        //position: fixed;
+        position: fixed;
         right: 0;
         z-index: 5;
-        margin-top: 2.6em;
+        margin-top: 4.4em;
         width: 75%;
         height: 100%;
         //margin: 0;
@@ -229,9 +231,12 @@ $secondary-color: #151515 ;
 
     nav {
 
+      .show-background-mainNav-mobile {
+        top: -.5em;
+      }
+
       .main-nav {
-        margin-top: 4em;
-        padding: 2em 0 0;
+        margin-top: 3.2em;
       }
 
       #logo {

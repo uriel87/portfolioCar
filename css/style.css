@@ -76,20 +76,24 @@ section {
 /*------------------------*/
 header {
   height: 100%;
-  font-family: 'Proza Libre', sans-serif;
-  z-index: -999; }
+  font-family: 'Proza Libre', sans-serif; }
   header nav {
+    position: fixed;
+    top: 0;
     background: #151515;
-    overflow: auto;
-    z-index: 999; }
+    width: 100%;
+    padding: 1em 2em;
+    z-index: 3;
+    overflow: auto; }
     header nav .background-mainNav-mobile {
       display: none;
       position: fixed;
       background-color: rgba(0, 0, 0, 0.7);
       height: 100%;
       width: 100%;
-      margin: 4.4em -1em 0;
-      opacity: 0; }
+      margin: 6em -1em 0;
+      opacity: 0;
+      z-index: -999; }
     header nav #logo {
       background-image: url("/images/logo.png");
       background-repeat: no-repeat;
@@ -97,12 +101,12 @@ header {
       height: 70px;
       float: left; }
     header nav .main-nav {
+      position: relative;
       float: right;
       list-style: none;
       margin-right: 1.5em;
-      top: 1.5em;
-      font-size: 130%;
-      position: fixed; }
+      top: 1.4em;
+      font-size: 130%; }
       header nav .main-nav.show-nav {
         -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
@@ -132,6 +136,12 @@ header {
       header nav .mobile-nav-icon .ion-navicon-round, header nav .mobile-nav-icon .ion-close-round {
         font-size: 200%;
         color: #ececec; }
+  header .background-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    z-index: -999; }
   header .video-background {
     min-width: 100%;
     min-height: 100%;
