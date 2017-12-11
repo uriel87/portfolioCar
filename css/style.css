@@ -78,10 +78,11 @@ header {
   height: 100%;
   font-family: 'Proza Libre', sans-serif; }
   header nav {
+    position: fixed;
     background: #151515;
     width: 100%;
     padding: 1em 2em;
-    z-index: 3;
+    z-index: 999;
     overflow: auto; }
     header nav .background-mainNav-mobile {
       display: none;
@@ -155,6 +156,8 @@ header {
     width: 100%;
     height: auto;
     z-index: -999;
+    display: none; }
+  header iframe {
     display: none; }
   header .header-content {
     position: absolute;

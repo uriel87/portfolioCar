@@ -105,12 +105,12 @@ header {
   font-family: 'Proza Libre', sans-serif;
 
   nav {
-    //position: fixed;
+    position: fixed;
     //top: 0;
     background: $secondary-color;
     width: 100%;
     padding: 1em 2em;
-    z-index: 3;
+    z-index: 999;
     overflow: auto;
 
     .background-mainNav-mobile {
@@ -222,6 +222,10 @@ header {
       @extend .overlay;
     }
 
+  }
+
+  iframe {
+    display: none;
   }
 
   .header-content {
