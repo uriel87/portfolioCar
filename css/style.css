@@ -76,14 +76,7 @@ section {
 /*------------------------*/
 header {
   height: 100%;
-  font-family: 'Proza Libre', sans-serif;
-  padding: 1em .5em;
-  background-image: url(../images/imagebg2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  z-index: 0; }
+  font-family: 'Proza Libre', sans-serif; }
   header nav {
     position: fixed;
     top: 0;
