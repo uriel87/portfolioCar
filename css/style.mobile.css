@@ -53,6 +53,7 @@
     transition: .3s; }
   header nav .main-nav {
     right: 0;
+    z-index: 999;
     margin-top: 2.6em;
     width: 75%;
     height: 100%;
