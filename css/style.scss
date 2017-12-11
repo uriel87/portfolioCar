@@ -135,21 +135,14 @@ header {
     .main-nav {
       position: relative;
       float: right;
-      list-style: none;
       margin-right: 1.5em;
       top: 1.4em;
       font-size: 130%;
 
-      &.show-nav {
-        //opacity: 1;
-        -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        transform: translateX(0%);
-      }
-
       li {
         display: inline-block;
         margin-left: 2.5em;
+        list-style: none;
 
         a:link,
         a:visited{
@@ -169,6 +162,13 @@ header {
           border-bottom: 2px solid $primary-color;
         }
 
+      }
+
+      &.show-nav {
+        //opacity: 1;
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
       }
     }
 

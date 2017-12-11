@@ -102,17 +102,13 @@ header {
     header nav .main-nav {
       position: relative;
       float: right;
-      list-style: none;
       margin-right: 1.5em;
       top: 1.4em;
       font-size: 130%; }
-      header nav .main-nav.show-nav {
-        -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        transform: translateX(0%); }
       header nav .main-nav li {
         display: inline-block;
-        margin-left: 2.5em; }
+        margin-left: 2.5em;
+        list-style: none; }
         header nav .main-nav li a:link,
         header nav .main-nav li a:visited {
           color: #fff;
@@ -127,6 +123,10 @@ header {
         header nav .main-nav li a:hover,
         header nav .main-nav li a:active {
           border-bottom: 2px solid #ed1c24; }
+      header nav .main-nav.show-nav {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%); }
     header nav .mobile-nav-icon {
       display: none;
       float: right;
