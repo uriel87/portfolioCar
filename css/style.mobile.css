@@ -52,6 +52,7 @@
     -o-transition: .3s;
     transition: .3s; }
   header nav .main-nav {
+    position: fixed;
     right: 0;
     z-index: 999;
     margin-top: 2.6em;
