@@ -78,8 +78,6 @@ header {
   height: 100%;
   font-family: 'Proza Libre', sans-serif; }
   header nav {
-    position: fixed;
-    top: 0;
     background: #151515;
     width: 100%;
     padding: 1em 2em;
@@ -147,7 +145,7 @@ header {
     min-height: 100%;
     width: 650px;
     height: 650px;
-    z-index: 1; }
+    z-index: -999; }
   header .image-background {
     background-image: url("/images/imagebg1.jpg");
     background-repeat: no-repeat;
