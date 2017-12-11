@@ -76,7 +76,8 @@ section {
 /*------------------------*/
 header {
   height: 100%;
-  font-family: 'Proza Libre', sans-serif; }
+  font-family: 'Proza Libre', sans-serif;
+  z-index: -999; }
   header nav {
     position: fixed;
     top: 0;
@@ -92,8 +93,7 @@ header {
       height: 100%;
       width: 100%;
       margin: 4.4em -1em 0;
-      opacity: 0;
-      z-index: -999; }
+      opacity: 0; }
     header nav #logo {
       background-image: url("/images/logo.png");
       background-repeat: no-repeat;
@@ -105,7 +105,7 @@ header {
       list-style: none;
       margin-right: 1.5em;
       position: relative;
-      top: .5em;
+      top: 1.5em;
       font-size: 130%; }
       header nav .main-nav.show-nav {
         -webkit-transform: translateX(0%);

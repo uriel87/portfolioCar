@@ -102,6 +102,7 @@ header {
 
   height: 100%;
   font-family: 'Proza Libre', sans-serif;
+  z-index: -999;
 
   nav {
     position: fixed;
@@ -120,7 +121,7 @@ header {
       width: 100%;
       margin: 4.4em -1em 0;
       opacity: 0;
-      z-index: -999;
+      //z-index: -999;
     }
 
     #logo {
@@ -136,7 +137,7 @@ header {
       list-style: none;
       margin-right: 1.5em;
       position: relative;
-      top: .5em;
+      top: 1.5em;
       font-size: 130%;
 
       &.show-nav {
