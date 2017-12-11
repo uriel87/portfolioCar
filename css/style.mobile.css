@@ -44,48 +44,50 @@
   header .header-content {
     padding: 0 2em;
     font-size: 100%; }
-  header nav .show-background-mainNav-mobile {
-    display: block;
-    opacity: 1;
-    z-index: 4;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s; }
-  header nav .main-nav {
+  header nav {
     position: fixed;
-    right: 0;
-    z-index: 999;
-    margin-top: 2.6em;
-    width: 75%;
-    height: 100%;
-    background-color: #151515;
-    padding: 3em 0 0;
-    -webkit-transform: translateX(101%);
-    -ms-transform: translateX(101%);
-    transform: translateX(101%);
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s; }
-    header nav .main-nav li {
+    width: 100%; }
+    header nav .show-background-mainNav-mobile {
       display: block;
-      margin: 2em 0;
-      float: none; }
-      header nav .main-nav li a:link,
-      header nav .main-nav li a:visited {
-        font-size: 100%;
-        padding: 2em;
+      opacity: 1;
+      z-index: 4;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+    header nav .main-nav {
+      right: 0;
+      z-index: 5;
+      margin-top: 2.6em;
+      width: 75%;
+      height: 100%;
+      background-color: #151515;
+      padding: 3em 0 0;
+      -webkit-transform: translateX(101%);
+      -ms-transform: translateX(101%);
+      transform: translateX(101%);
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s; }
+      header nav .main-nav li {
+        display: block;
+        margin: 2em 0;
+        float: none; }
+        header nav .main-nav li a:link,
+        header nav .main-nav li a:visited {
+          font-size: 100%;
+          padding: 2em;
+          color: #ececec; }
+        header nav .main-nav li a:hover,
+        header nav .main-nav li a:active {
+          border-bottom: none; }
+    header nav .mobile-nav-icon {
+      display: inline-block;
+      margin-top: 2em;
+      cursor: pointer; }
+      header nav .mobile-nav-icon .ion-navicon-round {
+        display: block; }
+      header nav .mobile-nav-icon i {
         color: #ececec; }
-      header nav .main-nav li a:hover,
-      header nav .main-nav li a:active {
-        border-bottom: none; }
-  header nav .mobile-nav-icon {
-    display: inline-block;
-    margin-top: 2em;
-    cursor: pointer; }
-    header nav .mobile-nav-icon .ion-navicon-round {
-      display: block; }
-    header nav .mobile-nav-icon i {
-      color: #ececec; }
   header .header-content h1 {
     font-size: 150%; }
 

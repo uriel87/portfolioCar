@@ -105,13 +105,17 @@ header {
   z-index: -999;
 
   nav {
-    position: fixed;
-    top: 0;
+    //position: fixed;
+    //top: 0;
     background: $secondary-color;
-    width: 100%;
-    padding: 1em 2em;
-    z-index: 3;
+    //width: 100%;
+    //padding: 1em 2em;
+    //z-index: 3;
+    //overflow: auto;
+
     overflow: auto;
+    z-index: 999;
+
 
     .background-mainNav-mobile {
       display: none;
@@ -136,9 +140,10 @@ header {
       float: right;
       list-style: none;
       margin-right: 1.5em;
-      position: relative;
+      //position: relative;
       top: 1.5em;
       font-size: 130%;
+      position: fixed;
 
       &.show-nav {
         //opacity: 1;

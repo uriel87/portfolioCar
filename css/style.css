@@ -79,13 +79,9 @@ header {
   font-family: 'Proza Libre', sans-serif;
   z-index: -999; }
   header nav {
-    position: fixed;
-    top: 0;
     background: #151515;
-    width: 100%;
-    padding: 1em 2em;
-    z-index: 3;
-    overflow: auto; }
+    overflow: auto;
+    z-index: 999; }
     header nav .background-mainNav-mobile {
       display: none;
       position: fixed;
@@ -104,9 +100,9 @@ header {
       float: right;
       list-style: none;
       margin-right: 1.5em;
-      position: relative;
       top: 1.5em;
-      font-size: 130%; }
+      font-size: 130%;
+      position: fixed; }
       header nav .main-nav.show-nav {
         -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);

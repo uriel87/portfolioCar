@@ -108,7 +108,8 @@ $secondary-color: #151515 ;
     }
 
     nav {
-      //position: fixed;
+      position: fixed;
+      width: 100%;
       //z-index: 10;
 
       .show-background-mainNav-mobile {
@@ -121,9 +122,9 @@ $secondary-color: #151515 ;
       }
 
       .main-nav {
-        position: fixed;
+        //position: fixed;
         right: 0;
-        z-index: 999;
+        z-index: 5;
         margin-top: 2.6em;
         width: 75%;
         height: 100%;
@@ -134,17 +135,9 @@ $secondary-color: #151515 ;
         -webkit-transform: translateX(101%);
         -ms-transform: translateX(101%);
         transform: translateX(101%);
-
         -webkit-transition: .4s;
         -o-transition: .4s;
         transition: .4s;
-
-        //&.show-nav {
-        //  //opacity: 1;
-        //  -webkit-transform: translateX(0%);
-        //  -ms-transform: translateX(0%);
-        //  transform: translateX(0%);
-        //}
 
 
         li {
