@@ -101,12 +101,10 @@ section {
 header {
 
   height: 100%;
-  //overflow: hidden;
   font-family: 'Proza Libre', sans-serif;
 
   nav {
     position: fixed;
-    //top: 0;
     background: $secondary-color;
     width: 100%;
     padding: 1em 2em;
@@ -316,7 +314,6 @@ header {
           -o-transition: -o-transform .5s;
           -o-transition: transform .5s;
           transition: transform .5s;
-          transition: transform .5s, -webkit-transform .5s;
 
           &:hover {
             -webkit-transform: scale(1.15);
