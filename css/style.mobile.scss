@@ -131,9 +131,9 @@ $secondary-color: #151515 ;
         background-color: #151515;
         padding: 3em 0 0;
         //opacity: 0;
-        //-webkit-transform: translateX(101%);
-        //-ms-transform: translateX(101%);
-        //transform: translateX(101%);
+        -webkit-transform: translateX(101%);
+        -ms-transform: translateX(101%);
+        transform: translateX(101%);
 
         -webkit-transition: .4s;
         -o-transition: .4s;
