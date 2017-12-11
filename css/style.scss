@@ -104,6 +104,13 @@ header {
   //overflow: hidden;
   font-family: 'Proza Libre', sans-serif;
 
+  padding: 1em .5em;
+  background-image: url(../images/imagebg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+
   nav {
     position: fixed;
     top: 0;
