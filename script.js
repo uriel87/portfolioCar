@@ -77,11 +77,11 @@ $( document ).ready(function() {
     });
 
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('.video-background').css('display', 'none');
-        $('.image-background').css('display', 'block');
-        $('.image-embed').css('overflow', 'visible');
-    }
+    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //     $('.video-background').css('display', 'none');
+    //     $('.image-background').css('display', 'block');
+    //     $('.image-embed').css('overflow', 'visible');
+    // }
 
 });
 
