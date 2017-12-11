@@ -101,15 +101,7 @@ section {
 header {
 
   height: 100%;
-  //overflow: hidden;
   font-family: 'Proza Libre', sans-serif;
-
-  //background-image: url('/images/imagebg1.jpg');
-  //background-position: center;
-  //background-repeat: no-repeat;
-  //background-attachment: fixed;
-  //-webkit-background-size: cover;
-  //background-size: cover;
 
   nav {
     position: fixed;
@@ -193,13 +185,13 @@ header {
 
   }
 
-  .background-wrap {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: 100%;
-    z-index: -999;
-  }
+  //.background-wrap {
+  //  min-width: 100%;
+  //  min-height: 100%;
+  //  width: auto;
+  //  height: 100%;
+  //  z-index: -999;
+  //}
 
   .video-background {
     min-width: 100%;
